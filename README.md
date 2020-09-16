@@ -32,7 +32,7 @@ const account = {
 }
 
 transmuter(alterations, account);
-//=> { email: john.doe@gmail.com", password: "xxxxx", token: "xxxxx" }
+//=> { email: "john.doe@gmail.com", password: "xxxxx", token: "xxxxx" }
 ```
 
 ## API
