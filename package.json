@@ -1,7 +1,7 @@
 {
-  "name": "__NAME__",
+  "name": "transmuter",
   "version": "1.0.0",
-  "description": "Template repo for js functions",
+  "description": "Transform an object content based on defined criteria",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -10,25 +10,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saxjst/__NAME__.git"
+    "url": "git+https://github.com/saxjst/transmuter.git"
   },
   "author": {
     "name": "saxjst"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/saxjst/__NAME__/issues"
+    "url": "https://github.com/saxjst/transmuter/issues"
   },
-  "homepage": "https://github.com/saxjst/__NAME__#readme",
+  "homepage": "https://github.com/saxjst/transmuter#readme",
   "engines": {
     "node": ">=10.16.3"
   },
   "keywords": [],
   "dependencies": {
+    "deep-map-with-key": "^1.0.1",
     "ramda": "0.27.0"
   },
   "devDependencies": {
     "coveralls": "3.0.13",
+    "faker": "^5.1.0",
     "jest": "25.3.0"
   }
 }
