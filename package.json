@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "coveralls": "3.0.13",
-    "faker": "^5.1.0",
+    "faker": "6.6.6",
     "jest": "25.3.0"
   }
 }
