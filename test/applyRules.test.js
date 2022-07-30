@@ -1,6 +1,6 @@
 const transmuter = require("../.");
 
-const faker = require("faker");
+const { faker } = require("@faker-js/faker");
 const applyRules = require("../applyRules");
 
 faker.locale = "fr";
@@ -44,13 +44,13 @@ describe("rules tests", () => {
   });
 
   test("if key is a containt 'phone' then the content should be replace by xxxxx #1", () => {
-    expect(applyRulesForUser(faker.phone.phoneNumber(), "phone")).toBe(
+    expect(applyRulesForUser(faker.phone.number(), "phone")).toBe(
       "xxxxxxxxxx"
     );
   });
 
   test("if key is a containt 'phone' then the content should be replace by xxxxx #2", () => {
-    expect(applyRulesForUser(faker.phone.phoneNumber(), "phoneNumber")).toBe(
+    expect(applyRulesForUser(faker.phone.number(), "phoneNumber")).toBe(
       "xxxxxxxxxx"
     );
   });

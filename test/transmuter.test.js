@@ -2,7 +2,6 @@ const obfuscator = require("../.");
 const transmuter = require("../.");
  const deepMapWithKey = require("deep-map-with-key");
 
-const faker = require("faker");
 const applyRules = require("../applyRules");
 
 describe("transmuter tests", () => {
