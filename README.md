@@ -53,4 +53,4 @@ Transform an object content based on defined criteria
 
 ## License
 
-MIT © [saxjst](https://saxjst.com)
+MIT © [muceres](https://forgetheweb.eu)
