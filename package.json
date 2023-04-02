@@ -26,7 +26,7 @@
   "keywords": [],
   "dependencies": {
     "deep-map-with-key": "^1.0.1",
-    "ramda": "0.28.0"
+    "ramda": "0.29.0"
   },
   "devDependencies": {
     "@faker-js/faker": "7.6.0",
